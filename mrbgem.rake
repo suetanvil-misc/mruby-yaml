@@ -30,9 +30,9 @@ MRuby::Gem::Specification.new('mruby-yaml') do |spec|
     unless File.exists?(yaml_dir)
       # But first, we generate the configure script. This requires GNU
       # autoconf to be installed.
-      Dir.chdir(yaml_base_dir) do
-        run_command({}, './bootstrap')
-      end
+      # Dir.chdir(yaml_base_dir) do
+      #   run_command({}, './bootstrap')
+      # end
 
       FileUtils.cp_r(yaml_base_dir, build_dir)
     end

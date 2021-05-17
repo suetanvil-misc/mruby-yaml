@@ -1,4 +1,14 @@
-## mruby-yaml
+## mruby-yaml FORK
+
+### WARNING
+
+This is a fork of mruby-yaml that includes the underlying library in
+the repository itself as a way to reduce external dependencies.  You
+probably don't want this.  The official repository is
+[here](https://github.com/mrbgems/mruby-yaml).
+
+---
+
 
 [![Ubuntu Status](https://github.com/mrbgems/mruby-yaml/workflows/ubuntu/badge.svg?branch=master)](https://github.com/mrbgems/mruby-yaml/actions?query=workflow%3Aubuntu+branch%3Amaster)
 
